@@ -1,0 +1,25 @@
+@font-face{
+
+    font-family:ElegantLux-Mager;
+    src:url(ElegantLux-Mager.otf)
+}
+
+
+
+
+h3{
+    font-family:ElegantLux-Mager;
+}
+
+
+/*
+@font-face{
+
+    font-family:Big-Caslon;
+    src:url(Big-Caslon.ttf)
+}
+
+h3{
+    font-family:Big-Caslon;
+}
+*/

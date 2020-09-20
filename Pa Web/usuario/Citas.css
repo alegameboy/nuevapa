@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin:0; 
+   
+    }
+
+
+body{
+
+    background-color: #E7EAF4;
+    min-width: 57px;
+    min-width: 278px;
+    -webkit-box-shadow: inset 0px -2px 230px 26px rgba(101,130,80,1);
+    -moz-box-shadow: inset 0px -2px 230px 26px rgba(101,130,80,1);
+    box-shadow: inset 0px -2px 230px 26px rgba(101,130,80,1);
+}
+.logo{
+    position: absolute;
+}
+.logo img{
+    height: 250px;
+    border-radius: 50%;
+}
+.divhed{
+    height: auto;
+    width: 100%;
+
+}
+
+.usuario{
+    position: absolute;
+    width: auto;
+    right: 3px;
+}
+
+.titulo{
+    color: darkgoldenrod;
+    height: 250px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.divcitapendiente{
+    height: auto;
+    width: 100%;
+    display:-webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.divcitapendiente div{
+    margin: 5px;
+}
+.video{
+    margin: 3px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+.divcont{
+
+    width: 100%;
+    height: auto;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.divcita{
+    background: white;
+    width: 400px;
+    height: 420px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+@media (max-width:847px){
+    .logo img{
+        height: 150px;
+    }
+    .divselecionTipo{
+        position: relative;
+        bottom: 40px;
+    }
+}
+
+@media (max-width:612px){
+    .logo img{
+        height: 110px;
+    }
+}
+
+@media (max-width:314px){
+    .logo img{
+        height: 90px;
+    }
+
+
+}
+
+.divcita h2{
+    margin-top: 20px;
+}
+
+.divcita div{
+    margin-top: 20px;
+}
+
+.inputfecha input{
+    background: rgba(196, 196, 196, 0.596);
+    width: 200px;
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+    border: darkgoldenrod 1px solid;
+    margin-top: 5px;
+    color: rgb(39, 55, 100);
+}
+
+.hora input{
+    background: rgba(196, 196, 196, 0.596);
+    width:150px ;
+    text-align: center;
+    font-size: large;
+    border: darkgoldenrod 1px solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: rgb(39, 55, 100);
+}
+
+.boton{
+    position: relative;
+    bottom: 5px;     
+}
+
+textarea{
+    resize: none;
+    position: relative;
+    top: 5px;
+}
+.coment label{
+    margin-top: 5px;
+}
+
+
+
+.espacioBasiso{
+    height: 200px;
+}
+
+
+
